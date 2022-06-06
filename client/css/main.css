@@ -1,0 +1,53 @@
+* {
+    text-align: center;
+    font-family: Arial;
+}
+
+.heading {
+    margin-top:40vh;
+}
+.URL-input, .download-button-mp3, .download-button-mp4 {
+    font-size:1.3em;
+    padding:5px 10px;
+}
+.URL-input {
+    border-radius:4px 0px 0px 4px;
+    width:30em;
+    text-align: left;
+    border:2px solid #EEEEEE;
+    background: #EEEEEE;
+    outline:none;
+}
+@media(max-width:670px) {
+    .URL-input {
+        width: 400px;
+    }
+}
+@media(max-width:450px) {
+    .URL-input {
+        width: 200px;
+    }
+}
+.URL-input:focus {
+    border:2px solid #5804ff;
+}
+.download-button-mp4 {
+    border-radius:0px 4px 4px 0px;
+    border:2px solid #5804ff;
+    background: #5804ff;
+    color:white;
+    cursor: pointer;
+}
+.download-button-mp4:disabled {
+    background-color: #1f0552;
+}
+.download-button-mp3 {
+    border-radius:0px 4px 4px 0px;
+    border:2px solid #04ff92;
+    background: #04ff92;
+    color:white;
+    cursor: pointer;
+}
+.download-button-mp3:disabled {
+    background-color: #055206;
+}
