@@ -22,7 +22,7 @@
     "etag": "^1.8.1",
     "ee-first": "^1.1.1",
     "escape-html": "^1.0.3",
-    "express": "^4.18.1",
+    "express": "^4.19.2",
     "finalhandler": "^1.2.0",
     "function-bind": "^1.1.1",
     "fresh": "^0.5.2",
