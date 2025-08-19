@@ -11,7 +11,7 @@
     "content-type": "^1.0.4",
     "call-bind": "^1.0.2",
     "content-disposition": "^0.5.4",
-    "cookie": "^0.5.0",
+    "cookie": "^0.7.0",
     "cookie-signature": "^1.0.6",
     "debug": "^2.6.9",
     "cors": "^2.8.5",
